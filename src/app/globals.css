@@ -19,3 +19,8 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.home {
+  text-align: center;
+  margin-top: 200px;
+}
