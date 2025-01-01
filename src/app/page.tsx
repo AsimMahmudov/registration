@@ -1,17 +1,22 @@
- import Image from 'next/image';
-import React from 'react';
- 
- const Home = () => {
-  return (
-    <div className='home'>
-     <h1>  👋 привет пока тут ничего нет...</h1>
+import Image from "next/image";
+import React from "react";
 
-<div className="image">
-<img className='img' src="https://i.gifer.com/embedded/download/WiFj.gif" alt="" />
+const Home = () => {
+	return (
+		<div className="home">
+			<h1> 👋 привет пока тут ничего нет...</h1>
+			<h1> 👋 привет пока тут ничего нет...</h1>
 
-</div>
-    </div>
-  );
- };
- 
- export default Home;
+
+			<div className="image">
+				<img
+					className="img"
+					src="https://i.gifer.com/embedded/download/WiFj.gif"
+					alt=""
+				/>
+			</div>
+		</div>
+	);
+};
+
+export default Home;
