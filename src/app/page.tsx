@@ -6,9 +6,18 @@ const Home = () => {
 		<div className="home">
 			<h1> 👋 привет пока тут ничего нет...</h1>
 			<h1> 👋 привет пока тут ничего нет...</h1>
+			<h1> 👋 привет пока тут ничего нет...</h1>
+
 
 
 			<div className="image">
+				<img
+					className="img"
+					src="https://i.gifer.com/embedded/download/WiFj.gif"
+					alt=""
+				/>
+			</div>
+      <div className="image">
 				<img
 					className="img"
 					src="https://i.gifer.com/embedded/download/WiFj.gif"
