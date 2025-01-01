@@ -1,16 +1,6 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+// next.config.js
+module.exports = {
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "media.tenor.com",
-        port: "",
-        pathname: "**", // Allows all paths on media.tenor.com
-      },
-    ],
+    domains: ['i.gifer.com'],
   },
 };
-
-export default nextConfig;
